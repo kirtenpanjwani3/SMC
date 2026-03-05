@@ -100,13 +100,13 @@ st.header("Payment Options 💳")
 
 st.markdown("""
 ### Pay with JazzCash
-Send payment to: **3364620555**
+Send payment to: **03364620555**
 
 ### Pay with Easypaisa
 Send payment to: **03364620555**
 """)
 
-st.info("After payment send screenshot on WhatsApp: 0300-1234567")
+st.info("After payment send screenshot on WhatsApp: 03364620555")
 
 # Contact
 st.header("Contact Us 📍")
@@ -120,4 +120,5 @@ Email: sukkurmintcandy@gmail.com
 st.markdown("---")
 
 st.markdown('<p class="footer">© 2026 Sukkur Mint Candy</p>', unsafe_allow_html=True)
+
 
