@@ -43,7 +43,7 @@ st.markdown('<p class="subtitle">Fresh Handmade Mint Candy from Sukkur, Sindh</p
 st.write("")
 
 # Hero image
-st.image("https://images.unsplash.com/photo-1606312619344-2c63b5a1e7c5", use_column_width=True)
+st.image("https://keralaspiceshop.com/wp-content/uploads/2023/11/Untitled-1.jpeg", use_column_width=True)
 
 # About
 st.header("About Our Candy 🌿")
@@ -59,19 +59,19 @@ st.header("Our Products 🍬")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image("https://images.unsplash.com/photo-1621939514649-280e2ee25f60")
+    st.image("https://cdn.onbuy.com/product/65b167e533545/500-500/p8ytszf.jpg")
     st.subheader("Classic Mint Candy")
     st.write("Price: Rs 450")
     st.button("Buy Classic")
 
 with col2:
-    st.image("https://images.unsplash.com/photo-1582058091505-f87a2e55a40f")
+    st.image("https://media.avarya.in/product/content/25834-ex-strong-mint-candy-extra-strong-mint-candies-01.webp")
     st.subheader("Extra Strong Mint")
     st.write("Price: Rs 500")
     st.button("Buy Strong Mint")
 
 with col3:
-    st.image("https://images.unsplash.com/photo-1625944525903-c6e1d8c9c1d7")
+    st.image("https://https://image.made-in-china.com/365f3j00bJLvykoRGnqM/OEM-Bulk-Fruit-Flavor-Fresh-Breath-Sugar-Free-Vitamin-C-Mint-Candy-Colorful-Sweet-Press-Tablet-Candy.webp")
     st.subheader("Mint Mix Pack")
     st.write("Price: Rs 600")
     st.button("Buy Mix Pack")
@@ -89,7 +89,7 @@ product = st.selectbox(
 
 quantity = st.slider("Quantity", 1, 10)
 
-total = quantity * 200
+total = quantity * 400
 st.write(f"Estimated Total: Rs {total}")
 
 if st.button("Confirm Order"):
@@ -120,5 +120,6 @@ Email: sukkurmintcandy@gmail.com
 st.markdown("---")
 
 st.markdown('<p class="footer">© 2026 Sukkur Mint Candy</p>', unsafe_allow_html=True)
+
 
 
