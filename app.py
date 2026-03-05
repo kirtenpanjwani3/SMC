@@ -100,10 +100,10 @@ st.header("Payment Options 💳")
 
 st.markdown("""
 ### Pay with JazzCash
-Send payment to: **0300-1234567**
+Send payment to: **3364620555**
 
 ### Pay with Easypaisa
-Send payment to: **0300-1234567**
+Send payment to: **03364620555**
 """)
 
 st.info("After payment send screenshot on WhatsApp: 0300-1234567")
@@ -113,9 +113,10 @@ st.header("Contact Us 📍")
 
 st.write("""
 Location: Sukkur, Sindh  
-Phone: +92 300 1234567  
+Phone: +92 3364620555 
 Email: sukkurmintcandy@gmail.com
 """)
 
 st.markdown("---")
+
 st.markdown('<p class="footer">© 2026 Sukkur Mint Candy</p>', unsafe_allow_html=True)
