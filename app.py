@@ -61,19 +61,19 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.image("https://images.unsplash.com/photo-1621939514649-280e2ee25f60")
     st.subheader("Classic Mint Candy")
-    st.write("Price: Rs 200")
+    st.write("Price: Rs 450")
     st.button("Buy Classic")
 
 with col2:
     st.image("https://images.unsplash.com/photo-1582058091505-f87a2e55a40f")
     st.subheader("Extra Strong Mint")
-    st.write("Price: Rs 250")
+    st.write("Price: Rs 500")
     st.button("Buy Strong Mint")
 
 with col3:
     st.image("https://images.unsplash.com/photo-1625944525903-c6e1d8c9c1d7")
     st.subheader("Mint Mix Pack")
-    st.write("Price: Rs 300")
+    st.write("Price: Rs 600")
     st.button("Buy Mix Pack")
 
 # Order section
@@ -120,3 +120,4 @@ Email: sukkurmintcandy@gmail.com
 st.markdown("---")
 
 st.markdown('<p class="footer">© 2026 Sukkur Mint Candy</p>', unsafe_allow_html=True)
+
