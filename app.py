@@ -67,13 +67,13 @@ with col1:
 with col2:
     st.image("https://media.avarya.in/product/content/25834-ex-strong-mint-candy-extra-strong-mint-candies-01.webp")
     st.subheader("Extra Strong Mint")
-    st.write("Price: Rs 500")
+    st.write("Price: Rs 450")
     st.button("Buy Strong Mint")
 
 with col3:
     st.image("https://https://image.made-in-china.com/365f3j00bJLvykoRGnqM/OEM-Bulk-Fruit-Flavor-Fresh-Breath-Sugar-Free-Vitamin-C-Mint-Candy-Colorful-Sweet-Press-Tablet-Candy.webp")
     st.subheader("Mint Mix Pack")
-    st.write("Price: Rs 600")
+    st.write("Price: Rs 450")
     st.button("Buy Mix Pack")
 
 # Order section
@@ -89,7 +89,7 @@ product = st.selectbox(
 
 quantity = st.slider("Quantity", 1, 10)
 
-total = quantity * 400
+total = quantity * 450
 st.write(f"Estimated Total: Rs {total}")
 
 if st.button("Confirm Order"):
@@ -120,6 +120,7 @@ Email: sukkurmintcandy@gmail.com
 st.markdown("---")
 
 st.markdown('<p class="footer">© 2026 Sukkur Mint Candy</p>', unsafe_allow_html=True)
+
 
 
 
